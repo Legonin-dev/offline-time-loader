@@ -4,10 +4,10 @@ This is a module for Roblox Studio that can calculate how long the player has be
 This requires enabling the datastore.
 
 In order to get the time in which the player was offline, you first need to require this module.
-local offline_time_module = require(YOUR_MODULE_DIRECTION))
+`local offline_time_module = require(YOUR_MODULE_DIRECTION))`
 
 And then we need to access it with the getPlayerOfflineTime function.
-offline_time_module.getPlayerOfflineTime(user_id)
+`offline_time_module.getPlayerOfflineTime(user_id)`
 
 It returns player`s offline time in seconds!
 
